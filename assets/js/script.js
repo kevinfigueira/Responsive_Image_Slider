@@ -4,6 +4,9 @@ const btns = document.querySelectorAll('.nav_btn');
 
 let currentSlide = 1;
 
+
+//Functions
+
  //For image slider manual navigation
 let manualNav = function(manual){
 
