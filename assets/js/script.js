@@ -30,7 +30,7 @@ btns.forEach((btn, i) => {
  //For image slider autoplay navigation
  let repeat = function(activeClass){
 
-     let active = document.querySelector('.active');
+     let active = document.getElementsByClassName('active');
      let i = 1;
 
      let repeater = () => {
@@ -54,7 +54,7 @@ btns.forEach((btn, i) => {
             }
             repeater();
             
-        }, 10000);
+        }, 3000);
      }
 
      repeater();
